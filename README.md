@@ -14,7 +14,7 @@ In this lab we'll practice using promises, as well as our other JavaScript skill
 
 We have already done some of the work for you.  We have uploaded the "materialize.css" library, so that our game has some styling.  And if you look at the `index.html` file, you can see that we have provided a div "question-container" where the question should be displayed, and a div of "true false list" to hold the buttons.  
 
-There are number of functions that we need to build to get this functionality to work.  
+There are a number of functions that we need to build to get this functionality to work.  
 
 + `appendQuestion` - appends the question to the "question-container" in the `index.html` file
 + `askQuestionThen(time)` - this assigns a global variable `question` to equal the first question; it also returns a promise that is resolved after a specified amount of time (so that we can expire the question after 5 seconds); the amount of time to wait is provided as an argument to the function
